@@ -1,0 +1,46 @@
+.navbar {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffdd57;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f8f9fa;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffdd57;
+    transform: translateY(-2px);
+}
+
+.logout-link {
+    color: #f8d7da;
+    font-weight: bold;
+}
+
+.logout-link:hover {
+    color: #f5c6cb;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        text-align: center;
+    }
+}

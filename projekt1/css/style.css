@@ -1,0 +1,128 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffdd57;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f8f9fa;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffdd57;
+    transform: translateY(-2px);
+}
+
+.logout-link {
+    color: #f8d7da;
+    font-weight: bold;
+}
+
+.logout-link:hover {
+    color: #f5c6cb;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        text-align: center;
+    }
+}
+
+
+.table th, .table td {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    color: aqua;
+}
+
+.btn-danger {
+    color: beige;
+}
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+}
+
+.button{
+    color: rgb(255, 255, 255);
+}
+.btn-danger {
+    color: antiquewhite;
+}
