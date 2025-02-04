@@ -15,7 +15,7 @@ Tento projekt je webová aplikace pro správu uživatelských účtů s možnost
 
 ## 📂 Struktura souborů
 ```
-📁 projektos/
+📁 proejkt1/
 │── 📁 includes/
 │   ├── db.php             # Připojení k databázi
 │── 📁 pages/
@@ -31,8 +31,8 @@ Tento projekt je webová aplikace pro správu uživatelských účtů s možnost
 ## ⚙️ Instalace a spuštění
 1. **Naklonujte repozitář**
    ```sh
-   git clone https://github.com/tvuj-username/projektos.git
-   cd projektos
+   git clone https://github.com/tvuj-username/projekt-swa.git
+   cd proejkt-swa
    ```
 2. **Nastavte databázi**
    - Vytvořte MySQL databázi
@@ -50,5 +50,9 @@ Tento projekt je webová aplikace pro správu uživatelských účtů s možnost
 - **Laragon/XAMPP** – lokální server
 
 ## 📜 Licence
+
+## ER Diagram
+![image](https://github.com/user-attachments/assets/9eaf4684-ff7d-4ce8-9d3f-86010a4cae19)
+
 Tento projekt je open-source. Použijte ho, jak potřebujete! 😊
 
