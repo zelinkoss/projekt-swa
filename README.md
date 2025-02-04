@@ -1,73 +1,54 @@
-🎮 Herní Sklad
+# 🎮 Herní Sklad
 
-📌 Popis projektu
+## 📌 Popis projektu
+Tento projekt je webová aplikace pro správu uživatelských účtů s možností registrace, přihlášení a administrace. Administrátoři mohou spravovat uživatele, provádět soft a hard mazání a obnovovat smazané účty.
 
-Tento projekt je webová aplikace pro správu uživatelských účtů s možností přihlášení, registrace a administrace. Administrátoři mohou spravovat uživatele, provádět soft a hard mazání, a obnovovat smazané účty.
+## 🚀 Funkce
+- 🔹 Registrace a přihlášení uživatelů
+- 🔹 Role-based systém (uživatelé a administrátoři)
+- 🔹 Administrátorský panel:
+  - Zobrazení seznamu uživatelů
+  - Soft delete (dočasné smazání účtu)
+  - Hard delete (trvalé smazání účtu)
+  - Obnovení smazaných uživatelů
+- 🔹 Responzivní design s využitím Bootstrapu
 
-🚀 Funkce
-
-✅ Registrace a přihlášení uživatelů
-
-✅ Role-based systém (uživatelé a admini)
-
-✅ Administrátorský panel
-
-Zobrazení seznamu uživatelů
-
-Soft delete (dočasné smazání)
-
-Hard delete (trvalé smazání)
-
-Obnovení smazaných uživatelů
-
-✅ Responzivní design s využitím Bootstrapu
-
-📂 Struktura souborů
-
+## 📂 Struktura souborů
+```
 📁 projektos/
 │── 📁 includes/
-│   ├── db.php           # Připojení k databázi
+│   ├── db.php             # Připojení k databázi
 │── 📁 pages/
 │   ├── admin_dashboard.php # Administrátorský panel
-│   ├── dashboard.php    # Uživatelský dashboard
+│   ├── dashboard.php       # Uživatelský dashboard
 │── 📁 css/
-│   ├── style.css        # Hlavní stylování
-│── index.php            # Přihlášení
-│── register.php         # Registrace uživatele
-│── README.md            # Dokumentace
+│   ├── style.css          # Hlavní stylování
+│── index.php              # Přihlášení
+│── register.php           # Registrace uživatele
+│── README.md              # Dokumentace
+```
 
-⚙️ Instalace a spuštění
+## ⚙️ Instalace a spuštění
+1. **Naklonujte repozitář**
+   ```sh
+   git clone https://github.com/tvuj-username/projektos.git
+   cd projektos
+   ```
+2. **Nastavte databázi**
+   - Vytvořte MySQL databázi
+   - Naimportujte soubor `database.sql` (pokud je k dispozici)
+   - Upravte `includes/db.php` s vašimi přihlašovacími údaji
 
-Naklonujte repozitář
+3. **Spusťte projekt v Laragonu nebo XAMPP**
+   - Ujistěte se, že běží Apache a MySQL
+   - Otevřete `http://localhost/projektos` v prohlížeči
 
-git clone https://github.com/tvuj-username/projektos.git
-cd projektos
+## 🛠️ Použité technologie
+- **PHP 8+** – serverová logika
+- **MySQL** – databáze
+- **Bootstrap 5** – stylování
+- **Laragon/XAMPP** – lokální server
 
-Nastavte databázi
-
-Vytvořte MySQL databázi
-
-Naimportujte soubor database.sql (pokud je k dispozici)
-
-Upravte includes/db.php s vašimi přihlašovacími údaji
-
-Spusťte projekt v Laragonu nebo XAMPP
-
-Ujistěte se, že běží Apache a MySQL
-
-Otevřete http://localhost/projektos v prohlížeči
-
-🛠️ Technologie
-
-PHP 8+ – serverová logika
-
-MySQL – databáze
-
-Bootstrap 5 – stylování
-
-Laragon/XAMPP – lokální server
-
-📜 Licence
-
+## 📜 Licence
 Tento projekt je open-source. Použijte ho, jak potřebujete! 😊
 
