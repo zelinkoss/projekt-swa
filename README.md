@@ -50,6 +50,7 @@ Tento projekt je webová aplikace pro správu uživatelských účtů s možnost
 - **Laragon/XAMPP** – lokální server
 
 ## 📜 Licence
+Tento projekt je licencovaný pod [MIT License](LICENSE)
 
 ## ER Diagram
 ![image](https://github.com/user-attachments/assets/9eaf4684-ff7d-4ce8-9d3f-86010a4cae19)
